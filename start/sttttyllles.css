@@ -1,0 +1,29 @@
+h1 {
+    color: rgb(184, 218, 164);
+    background-color: black;
+}
+.page {
+    font-style: italic;
+}
+h2 {
+    background-color: black;
+    color: rgb(184, 218, 164);
+}
+
+.red {
+    color: crimson;
+}
+h4 {
+    background-color: black;
+    color: azure;
+}
+h3 {
+    background-color: black;
+    color: green;
+}
+.Dva {
+    font-style: oblique;
+}
+.film {
+    font-style: italic;
+}
