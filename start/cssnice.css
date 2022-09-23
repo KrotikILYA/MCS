@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.block1 {
+    padding: 40px 0;
+    color: rgb(0, 0, 0);
+    background-color: #FFE138;
+    ;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .tablles {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    
+   
+    
+   }
+   .text {
+     text-align:flex-start;
+     width: 400px;
+   }
+.tab1{
+    margin-right: 20px;
+    border: 1px solid;
+    padding: 20px;
+}
+.tab2{
+    margin-right: 20px;
+    border: 1px solid;
+    padding: 20px;
+}
+.tab3{
+    border: 1px solid black;
+    padding: 20px;
+}
+.tablles img { width: 100%;
+    display: block;}
