@@ -21,22 +21,15 @@
     
    }
    .text {
-     text-align:flex-start;
-     width: 400px;
+     
+     
    }
 .tab1{
-    margin-right: 20px;
+    
     border: 1px solid;
     padding: 20px;
+    width: 30%;
+    margin:  10px;
 }
-.tab2{
-    margin-right: 20px;
-    border: 1px solid;
-    padding: 20px;
-}
-.tab3{
-    border: 1px solid black;
-    padding: 20px;
-}
-.tablles img { width: 100%;
-    display: block;}
+
+
