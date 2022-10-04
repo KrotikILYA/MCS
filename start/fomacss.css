@@ -7,13 +7,15 @@
   .header {
     width: 100%;
     padding: 50px;
-  
+   
     display: flex;
     justify-content: space-between;
     background-color: #F8BFC7;}
+    
 .menu {
     margin-top: 15px;
     font-size: 25px;
+    
     
 }
 .menu > li {
@@ -39,6 +41,7 @@ a:hover {
 .logo{
     margin-top: 15px;
     font-size: 25px;
+    color:#f1eeee;
 }
 .speaker-form {
    
@@ -51,19 +54,36 @@ a:hover {
     margin: 50px 0;
     padding: 50px;
   }
-  body {
+  .main {
+    padding: 300px;
+    
+    
     display: flex;
+    align-items: center;
+    justify-self:flex-start;
+
     background-image: url(images/123123.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
-    flex-direction: column;
-    align-items: center;
-  }
+    background-position: top ;
+}
+
   .form-row{
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
     color: #FFFFFF;
   }
-  .form-row button {
+
+  .form-button {
+    display: block; /* Чтобы кнопка была по центру, задаем block и margin: 0 auto;*/
+
+    margin: 0 auto;
+    padding: 10px 40px;
+
     font-size: 26px;
     font-weight: bold;
   
@@ -72,8 +92,7 @@ a:hover {
   
     border: none;
     border-radius: 3px;
-    margin-bottom: 100px;
-    padding: 10px 40px;
+    
     cursor: pointer;
   }
   .form-row button:hover {
@@ -83,4 +102,21 @@ a:hover {
   .form-row button:active {
     background-color: #f1eeee;
   }
+  .description{
+    text-align: center;
+    background-color: #336FD1;
+    color: #FEB700;
+    font-size:60px;
+  }
+ .footer {
+  background-color: #F8BFC7;
+  padding: 50px;
+  text-align: left;
+  color: #f1eeee;
+  font-size: 30px;
+ }
+ .C22 {
+  text-align: right;
+ 
+ }   
   
